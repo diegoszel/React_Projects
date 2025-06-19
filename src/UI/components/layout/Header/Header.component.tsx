@@ -77,7 +77,7 @@ const Header = () => {
             href={"/"}
             className={Styles.bcardContainer}
           >
-            <img src="/public/Company_Logo.png" alt="R.E.D. Studios" className="h-10 w-auto mr-4"/>
+            <img src="../../../../public/Company_Logo.png" alt="R.E.D. Studios" className="h-10 w-auto mr-4"/>
             
             <h1 className={`${Styles.bcard}`}>React Project</h1>
           </Navbar.Brand>
