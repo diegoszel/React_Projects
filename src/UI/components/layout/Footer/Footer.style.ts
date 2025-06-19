@@ -3,7 +3,7 @@ import { normalized } from "../../../../core/helpers/Style.Helper";
 
 const styles: Record<string, Style> = {
     container: new Style({
-        all: `h-[15vh] bg-blue-500 text-xs flex justify-center items-center`,
+        all: `h-[100%] bg-blue-500 text-xs flex justify-center items-center`,
         md: `md:text-md`,
     }),
     containerInner: new Style({
@@ -11,7 +11,7 @@ const styles: Record<string, Style> = {
     }),
     paragrapgh: new Style({
         all: `font-semibold p-2`,
-        md: `md:p-10`,
+        md: `md:p-8`,
         dark: `dark:text-white`,
         light: `light:text-black`,
     }),
