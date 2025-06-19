@@ -23,6 +23,7 @@ import RegisterForm from "../../forms/Register/Register.form";
 import FormModal from "../../../modals/FormModal/Form.modal";
 import AreYouSureModal from "../../../modals/AreYouSureModal/AreYouSure.modal";
 import noPic from "../../../../assets/user.png";
+import logo from "../../../../../public/Company_Logo.png";
 
 //** Header Component **//
 const Header = () => {
@@ -77,7 +78,7 @@ const Header = () => {
             href={"/"}
             className={Styles.bcardContainer}
           >
-            <img src="../../../../public/Company_Logo.png" alt="R.E.D. Studios" className="h-10 w-auto mr-4"/>
+            <img src={logo} alt="R.E.D. Studios" className="h-10 w-auto mr-4"/>
             
             <h1 className={`${Styles.bcard}`}>React Project</h1>
           </Navbar.Brand>
